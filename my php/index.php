@@ -58,10 +58,7 @@
         
         <!-- Login-Formular mit Benutzername-, E-Mail- und Passwort-Eingabefeldern -->
         <form action="connexion.php" method="post">
-            <h2 class="text-center">Anmeldung</h2>       
-            <div class="form-group">
-                <input type="text" name="user" class="form-control" placeholder="user" required="required" autocomplete="off">
-            </div>
+            <h2 class="text-center">Anmeldung</h2>      
             <div class="form-group">
                 <input type="email" name="email" class="form-control" placeholder="Email" required="required" autocomplete="off">
             </div>
