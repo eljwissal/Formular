@@ -1,12 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="NoS1gnal"/>
-    <title>Anmeldung</title>
-</head>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="NoS1gnal"/>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <title>Registrierung</title>
+    </head>
 
-<body>
+    <body>
+    <div class="login-form"> 
     <!-- Der PHP-Code gibt je nach Anmeldestatus Fehler- oder Bestätigungsmeldungen aus -->
     <?php
         // Überprüfen Sie, ob die Seite mit einem Registrierungsfehler aufgerufen wird
