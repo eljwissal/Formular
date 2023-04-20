@@ -44,19 +44,19 @@
                     </div>
                     <?php
                     break;
-                case 'email_length':
-                    // Gibt eine Fehlermeldung aus, wenn die E-Mail zu lang ist
+                case 'Vorname':
+                    // Gibt eine Fehlermeldung aus, wenn die Vorname zu lang ist
                     ?>
                     <div class="alert alert-danger">
-                        <strong>Fehler</strong> E-Mail zu lang.
+                        <strong>Fehler</strong> Vorname zu lang.
                     </div>
                     <?php
                     break;
-                case 'user_length':
-                    // Gibt eine Fehlermeldung aus, wenn der Benutzername zu lang ist
+                case 'Nachname':
+                    // Gibt eine Fehlermeldung aus, wenn der Nachname zu lang ist
                     ?>
                     <div class="alert alert-danger">
-                        <strong>Fehler</strong> Benutzer zu lang.
+                        <strong>Fehler</strong> Nachname zu lang.
                     </div>
                     <?php
                     break;
